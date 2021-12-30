@@ -6,26 +6,36 @@ My name is varun J
 
 I work @ XYZ
 
+---
 ## Lists
 
 My interests are
 
-- Gardening
+<!-- UL -->
+- Item 1
+- Item 2
+- Item 3 
+  - Nested Item 1
+  - Nested Item 2
+  - Nested Item 3
+    1. Item 1
 
-- Sports
-  1. swimming
-  2. Badminton
-- Numismatic
-  - National
-     1. Coins
-     2. Notes
+<!-- OL -->
 
- - Other
+1. Item 1
+1. Item 2
+1. Item 3
+1. Item 4
 
- ## Adding LINKS
+---
 
-[How to add to links] (http://www.github.com)
+## Adding LINKS
 
+[How to add to links](http://www.github.com)
+
+[Git HUB.com](http://www.github.com "Shows the assigned text")
+
+---
 
 ## Inline code
 
@@ -39,37 +49,71 @@ This paragraph has some `Variable` inline code
 var num = Math.random();
 ```
 
+--
 
 ## Images
 
-![alt text](https://picsum.photos/999/666)
+![alt text](https://picsum.photos/999/666) 
 
-![alt text](https://picsum.photos/204/203)
+---
 
-![alt text](https://picsum.photos/210/210)
+![alt text](https://picsum.photos/500/505) 
+
+---
+
+![alt text](https://picsum.photos/100/101)
+
+---
 
 
+## Paragraph with text with Blockquote
 
+ > 'When you dont know what to choose, just shown total involment in everything that you have.Then life will choose, and it is never wrong' 
+ 
+                                                             -- Sadh Guru
 
-Some paragraph with text
- > block quote below the paragraph
+---
 
-
- ## Table
+## Table
 
  | Heading | header | head  |
  | --- | --- | ---  |
 | 123 | 345 | 678  |
 | 987 | 654 | 321  |
 
-
-
+---
 
 ## Bold
 
-we need **BOLD**
+we have **BOLD** 
+
+Also
+
+we can do __THIS__
+
+---
+
+<!--for comments-->
+## *Italic*
 
 we have *Italic*
 
+Also
+
+we can do _This_
+
+___
+
+## Strikethrough
+
 we have ~~Srtrike through~~
+
+---
+
+### **Want to 'Escape the special character'**
+
+| Sl no. | Before | After |
+| --| --- | --- |
+| 1. | *Bajaj* | \*Bajaja\* |
+| 2. | **Chetak** | \**Chetak\**|
 
